@@ -11,8 +11,9 @@ In this project we try to tackle the task of enhancement of low light images. We
 -matplotlib<br>
 -numpy<br>
 
-To train the model. Run $train.py$ with the dataset in 'Datasets/LOLdataset/' or change the variable in the file accordingly. The model will train and save the best model as 'orion_final.h5'.
+To train the model. Run *train.py* with the dataset in 'Datasets/LOLdataset/' or change the variable in the file accordingly. The model will train and save the best model as 'orion_final.h5'.
 <br>
-To test the model, download the trained model from [here]( https://drive.google.com/file/d/1Qk7R7IJQahPMgzW02fRPd9ujaNc5TlFr/view?usp=sharing) and place it in the repo. <br>Run $test.py$ and it will show the test PSNR and SSIM along with a sample output as shown below.
+
+To test the model, download the trained model from [here]( https://drive.google.com/file/d/1Qk7R7IJQahPMgzW02fRPd9ujaNc5TlFr/view?usp=sharing) and place it in the repo. <br>Run *test.py* and it will show the test PSNR and SSIM along with a sample output as shown below.
 ![Results](OUTPUT.png "Results")
 
